@@ -1,0 +1,1 @@
+A command line ToDo list. Clone it and run "to_do.rb". Still needs some work, but it's a good warm up for a Rails version. 
