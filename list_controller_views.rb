@@ -11,8 +11,8 @@ end
 
 def show_formatted_list 
 
-	show_list_name.upcase
-	access_list.map {|item| "#{item.item_id}) #{item.item_name} #{item.checked ? '[✔]' : '[ ]'}" }
+	
+	access_list.map {|item| "#{item.item_id}) #{item.item_name} #{item.checked ? '[✔]' : '[ ]'}" }.join("\n")
 
 
 end 

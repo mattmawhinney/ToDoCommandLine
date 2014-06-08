@@ -7,5 +7,5 @@ require_relative 'views.rb'
 
 
 intro
-puts show_list_name
+menu
 
